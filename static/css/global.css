@@ -1,0 +1,22 @@
+.post-header-cover .post-header .post-title {
+  text-shadow: .2rem .2rem .8rem rgba(0, 0, 0, .8);
+}
+
+.post-header-cover .post-header .post-meta {
+  background-color: rgba(0, 0, 0, .6);
+  padding: 1rem 2rem;
+}
+
+.post .post-content :not(blockquote):not(.alert) > p {
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px solid rgb(120, 120, 180);
+  margin: 4rem 3rem;
+}

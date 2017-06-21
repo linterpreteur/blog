@@ -1,0 +1,84 @@
+baseURL = "https://blog.wooseop.kim/"
+title = "화무십일홍"
+languageCode = "ko-kr"
+theme = "tranquilpeak"
+googleAnalytics = "UA-78757178-3"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[[menu.main]]
+  weight = 0
+  identifier = "home"
+  name = "블로그"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+[[menu.main]]
+  weight = 1
+  identifier = "categories"
+  name = "카테고리"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
+[[menu.main]]
+  weight = 2
+  identifier = "tags"
+  name = "태그"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+  url = "/tags"
+[[menu.main]]
+  weight = 3
+  identifier = "archives"
+  name = "모든 글"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+  url = "/archives"
+
+[[menu.links]]
+  weight = 0
+  identifier = "facebook"
+  name = "Facebook"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook-official\"></i>"
+  url = "https://www.facebook.com/100004239161408"
+[[menu.links]]
+  weight = 1
+  identifier = "brunch"
+  name = "Brunch"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-pencil\"></i>"
+  url = "https://brunch.co.kr/@linterpreteur"
+[[menu.links]]
+  weight = 2
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/linterpreteur"
+[[menu.links]]
+  weight = 3
+  identifier = "transifex"
+  name = "Transifex"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-globe\"></i>"
+  url = "https://www.transifex.com/user/profile/linterpreteur/"
+
+[[menu.misc]]
+  weight = 0
+  identifier = "rss"
+  name = "RSS"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
+  url = "/index.xml"
+
+[author]
+  name = "Wooseop Kim"
+  bio = "화무십일홍"
+  job = "Student"
+  location = "Seoul"
+  picture = "images/avatar.jpg"
+
+[params]
+  sidebarBehavior = 2
+  imageGllery = false
+  thumbnailImage = true
+  coverImage = "cover.jpg"
+  favicon = ""
+  hierarchicalCategories = false
+  customCSS = ["css/global.css", "css/brunch.css"]
+  customJS = ["js/brunch.js"]
