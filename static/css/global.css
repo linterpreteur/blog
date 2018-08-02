@@ -8,8 +8,9 @@
 }
 
 .post .post-content :not(blockquote):not(.alert) > p {
-  margin-top: 0.6rem;
-  margin-bottom: 0.6rem;
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
+  text-indent: 0.6em;
 }
 
 a:hover {
@@ -20,3 +21,4 @@ hr {
   border-top: 1px solid rgb(120, 120, 180);
   margin: 4rem 3rem;
 }
+
