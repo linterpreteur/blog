@@ -1,8 +1,10 @@
 baseURL = "https://blog.wooseop.kim/"
 title = "화무십일홍"
 languageCode = "ko-kr"
+defaultContentLanguage = "ko-kr"
 theme = "tranquilpeak"
 googleAnalytics = "UA-78757178-3"
+canonifyurls = true
 
 [taxonomies]
   tag = "tags"
@@ -10,54 +12,48 @@ googleAnalytics = "UA-78757178-3"
   archive = "archives"
 
 [[menu.main]]
-  weight = 0
+  weight = 1
   identifier = "home"
   name = "블로그"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
   url = "/"
 [[menu.main]]
-  weight = 1
+  weight = 2
   identifier = "categories"
   name = "카테고리"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
   url = "/categories"
 [[menu.main]]
-  weight = 2
+  weight = 3
   identifier = "tags"
   name = "태그"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
   url = "/tags"
 [[menu.main]]
-  weight = 3
+  weight = 4
   identifier = "archives"
   name = "모든 글"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
   url = "/archives"
 
 [[menu.links]]
-  weight = 0
-  identifier = "facebook"
-  name = "Facebook"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook-official\"></i>"
-  url = "https://www.facebook.com/100004239161408"
-[[menu.links]]
   weight = 1
-  identifier = "brunch"
-  name = "Brunch"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-pencil\"></i>"
-  url = "https://brunch.co.kr/@@tcN"
-[[menu.links]]
-  weight = 2
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/wooseopkim"
 [[menu.links]]
+  weight = 2
+  identifier = "steemit"
+  name = "Steemit"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-heart\"></i>"
+  url = "https://steemit.com/@wooseop"
+[[menu.links]]
   weight = 3
-  identifier = "transifex"
-  name = "Transifex"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-globe\"></i>"
-  url = "https://www.transifex.com/user/profile/linterpreteur/"
+  identifier = "brunch"
+  name = "Brunch"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-pencil\"></i>"
+  url = "https://brunch.co.kr/@@tcN"
 
 [[menu.misc]]
   weight = 0
@@ -71,14 +67,30 @@ googleAnalytics = "UA-78757178-3"
   bio = "화무십일홍"
   job = "Student"
   location = "Seoul"
-  picture = "https://graph.facebook.com/100004239161408/picture?type=large&width=256&height=256"
+  picture = "/images/avatar.jpg"
 
 [params]
   sidebarBehavior = 2
-  imageGllery = false
+  imageGallery = false
   thumbnailImage = true
+  thumbnailImagePosition = "right"
+  autoThumbnailImage = true
   coverImage = "cover.jpg"
+  dateFormat = "2006-01-02"
   favicon = ""
   hierarchicalCategories = false
-  customCSS = ["css/global.css", "css/brunch.css"]
-  customJS = ["js/brunch.js"]
+  syntaxHighlighter = "prism.js"
+
+  [[params.sharingOptions]]
+    name = "Facebook"
+    icon = "fa-facebook-official"
+    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+
+  [[params.sharingOptions]]
+    name = "Twitter"
+    icon = "fa-twitter"
+    url = "https://twitter.com/intent/tweet?text=%s"
+
+  [[params.customCSS]]
+    href = "/css/global.css"
+
