@@ -2,7 +2,6 @@
   text-align: justify;
   max-height: 6em;
   position: relative;
-  text-align: justify;
 }
 
 .postShorten-excerpt::after {
@@ -31,6 +30,7 @@
   margin-top: 1.1rem;
   margin-bottom: 1.1rem;
   text-indent: 0.6em;
+  text-align: justify;
 }
 
 a:hover {
