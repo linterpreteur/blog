@@ -2,6 +2,7 @@
   text-align: justify;
   max-height: 6em;
   position: relative;
+  text-align: justify;
 }
 
 .postShorten-excerpt::after {
