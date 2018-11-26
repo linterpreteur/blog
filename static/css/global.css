@@ -54,7 +54,7 @@ hr {
   width: 75%;
 }
 
-img {
+.post .post-content img {
   margin-top: 3.3rem;
   margin-bottom: 4.4rem;
   margin-left: auto;
