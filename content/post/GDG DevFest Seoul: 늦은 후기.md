@@ -60,7 +60,7 @@ comments: false
 
  느린 웹이 공포 영화보다 큰 스트레스를 유발한다던가 [TTI](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive), 자바스크립트가 같은 용량의 다른 리소스보다 파싱 등의 과정 때문에 훨씬 시간 비용이 많이 든다는 등 초장부터 흥미로우면서도 유용한 정보들을 얻을 수 있었다. 이러한 문제의 해결책으로 제시된 것이 구글의 [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)이었고, 구체적인 방안은 웹 개발자들에게 훨씬 더 익숙한 코드 스플리팅과 레이지 로딩이다. React Loadable이라는 라이브러리와 ES의 다이내믹 임포트 구문 그리고 웹팩을 통하여 코드 스플리팅을 처리하는 이야기였는데, 마침 행사가 있었던 그 주에 전날인 금요일까지 관련 문제를 힘겹게 처리하고 간 터라 발표이기 때문에 생략된 모든 삽질들이 꼭 나의 일만 같아 더욱 슬프고 그러하였다.
 
- 그 뒤로는 SSR과 PWA 이야기였다. 솔직히 말하면 여기서부터는 대충 들었다. SSR에 대해서는 "처음부터 고려하고 만들지 않은 코드에 적용하려면 삶이 굉장히 피곤해지고, 직접 한 땀 한 땀 수 놓느니 프레임워크를 쓰는 것이 속편하다" 정도로 내가 이미 생각하고 있었고 실제 발표 내용도 그렇게 이어졌던 것이다. PWA도 마찬가지로 "서비스 워커 등을 이용해 오프라인 환경에서도 서비스를 제공하는 등 몇 가지 가이드라인이 있는데 이건 [Lighthoust](https://developers.google.com/web/tools/lighthouse/) 같은 걸 보는 게 속편하다" 정도로 알고 있었다. 발표 말미에 나온 [Workbox](https://developers.google.com/web/tools/workbox/)마저도 행사일 얼마 전에 찾아서 적용했던 내용이라, 이러나 저러나 복습하는 내용으로 쭉 들을 수 있었다.
+ 그 뒤로는 SSR과 PWA 이야기였다. 솔직히 말하면 여기서부터는 대충 들었다. SSR에 대해서는 "처음부터 고려하고 만들지 않은 코드에 적용하려면 삶이 굉장히 피곤해지고, 직접 한 땀 한 땀 수 놓느니 프레임워크를 쓰는 것이 속편하다" 정도로 내가 이미 생각하고 있었고 실제 발표 내용도 그렇게 이어졌던 것이다. PWA도 마찬가지로 "서비스 워커 등을 이용해 오프라인 환경에서도 서비스를 제공하는 등 몇 가지 가이드라인이 있는데 이건 [Lighthouse](https://developers.google.com/web/tools/lighthouse/) 같은 걸 보는 게 속편하다" 정도로 알고 있었다. 발표 말미에 나온 [Workbox](https://developers.google.com/web/tools/workbox/)마저도 행사일 얼마 전에 찾아서 적용했던 내용이라, 이러나 저러나 복습하는 내용으로 쭉 들을 수 있었다.
 
 ### [Android DataBinding for Modularization, ViewModel and Testing](https://drive.google.com/file/d/1ZetMCoLF0U_TjZHOz3_jts2t31PqfmRs/view)
 
