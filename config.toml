@@ -1,5 +1,5 @@
 baseURL = "https://blog.wooseop.kim/"
-title = "화무십일홍"
+title = "花無十日紅"
 languageCode = "ko"
 defaultContentLanguage = "ko"
 hasCJKLanguage = true
@@ -8,7 +8,7 @@ googleAnalytics = "UA-78757178-3"
 
 [author]
   name = "Wooseop Kim"
-  bio = "화무십일홍"
+  bio = "花無十日紅"
   job = "Student"
   location = "Seoul"
   picture = "/images/avatar.jpg"
