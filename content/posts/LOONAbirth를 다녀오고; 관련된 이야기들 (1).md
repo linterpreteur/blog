@@ -1,7 +1,7 @@
 ---
 title: "LOONAbirth를 다녀오고; 관련된 이야기들 (1)"
 date: 2018-08-20T17:11:22+09:00
-coverImage: /images/covers/LOONAbirth.jpg
+cover: /images/covers/LOONAbirth.jpg
 categories:
   - 후기
 tags:

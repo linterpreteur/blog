@@ -1,7 +1,7 @@
 ---
 title: "GDG DevFest Seoul: 늦은 후기"
 date: 2018-11-26T11:11:40+09:00
-coverImage: /images/covers/GDGDevFestSeoul18.jpg
+cover: /images/covers/GDGDevFestSeoul18.jpg
 categories:
   - 후기
 tags:
