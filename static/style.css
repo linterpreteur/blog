@@ -1,0 +1,10 @@
+img.post-cover {
+  max-height: 10rem;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: contain;
+  object-position: 0;
+  background: var(--accent);
+}
