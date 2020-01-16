@@ -53,3 +53,6 @@ googleAnalytics = "UA-78757178-3"
     weight = 9
     name = "RSS"
     url = "/index.xml"
+
+[markup.goldmark.renderer]
+  unsafe = true
