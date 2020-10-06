@@ -15,7 +15,7 @@ googleAnalytics = "UA-78757178-3"
 
 [params]
   fullWidthTheme = false
-  centerTheme = false
+  centerTheme = true
   themeColor = "green"
   favicon = ""
 
@@ -43,10 +43,6 @@ googleAnalytics = "UA-78757178-3"
     url = "https://www.linkedin.com/in/wooseop-kim-870589107/"
   [[languages.ko.menu.main]]
     weight = 4
-    name = "Steemit"
-    url = "https://steemit.com/@wooseop"
-  [[languages.ko.menu.main]]
-    weight = 5
     name = "Brunch"
     url = "https://brunch.co.kr/@@tcN"
   [[languages.ko.menu.main]]
